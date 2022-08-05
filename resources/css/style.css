@@ -1,0 +1,96 @@
+*{ margin:0;  padding:0}
+
+.main{ height:100vh;  background:-webkit-linear-gradient(rgb(2,2,73),black);  background:linear-gradient(rgb(2,2,73),black);  display:-webkit-box;  display:-ms-flexbox;  display:flex;  -webkit-box-pack:center;  -ms-flex-pack:center;  justify-content:center;  -webkit-box-align:center;  -ms-flex-align:center;  align-items:center}
+
+
+/** loader section */
+.loader-section{ display:-webkit-box; display:-ms-flexbox; display:flex;  -ms-flex-pack:distribute;  justify-content:space-around}
+
+.item{ height:100px;  width:20px;  border-radius:20px}
+
+/** loader animation section start **/
+
+@-webkit-keyframes item1{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(4,116,111)}
+}
+
+
+@keyframes item1{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(4,116,111)}
+}
+
+@-webkit-keyframes item2{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(0,188,240)}
+}
+
+@keyframes item2{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(0,188,240)}
+}
+
+@-webkit-keyframes item3{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(85,255,0)}
+}
+
+@keyframes item3{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(85,255,0)}
+}
+
+@-webkit-keyframes item4{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(237,91,1)}
+}
+
+@keyframes item4{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(237,91,1)}
+}
+
+@-webkit-keyframes item5{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(255,255,255)}
+}
+
+@keyframes item5{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(255,255,255)}
+}
+
+@-webkit-keyframes item6{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(61,2,255)}
+}
+
+@keyframes item6{ 0%{ -webkit-transform:scale(1); transform:scale(1)}
+
+
+100%{ -webkit-transform:scale(1.5); transform:scale(1.5);  box-shadow:0 0 20px rgb(61,2,255)}
+}
+
+/** loader animation section end */
+
+.item1{ background-color:rgb(4,116,111);  margin-right:5px;  -webkit-animation-name:item1;  animation-name:item1;  -webkit-animation-timing-function:ease-in-out;  animation-timing-function:ease-in-out;  -webkit-animation-duration:1s;  animation-duration:1s;  -webkit-animation-delay:0.15s;  animation-delay:0.15s;  -webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite;  -webkit-animation-direction:alternate-reverse;  animation-direction:alternate-reverse}
+
+.item2{ background-color:rgb(0,188,240);  margin-right:5px;  -webkit-animation-name:item2;  animation-name:item2;  -webkit-animation-timing-function:ease-in-out;  animation-timing-function:ease-in-out;  -webkit-animation-duration:1s;  animation-duration:1s;  -webkit-animation-delay:0.30s;  animation-delay:0.30s;  -webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite;  -webkit-animation-direction:alternate-reverse;  animation-direction:alternate-reverse}
+
+.item3{ background-color:rgb(85,255,0);  margin-right:5px;  -webkit-animation-name:item3;  animation-name:item3;  -webkit-animation-timing-function:ease-in-out;  animation-timing-function:ease-in-out;  -webkit-animation-duration:1s;  animation-duration:1s;  -webkit-animation-delay:0.45s;  animation-delay:0.45s;  -webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite;  -webkit-animation-direction:alternate-reverse;  animation-direction:alternate-reverse}
+
+.item4{ background-color:rgb(237,91,1);  margin-right:5px;  -webkit-animation-name:item4;  animation-name:item4;  -webkit-animation-timing-function:ease-in-out;  animation-timing-function:ease-in-out;  -webkit-animation-duration:1s;  animation-duration:1s;  -webkit-animation-delay:1s;  animation-delay:1s;  -webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite;  -webkit-animation-direction:alternate-reverse;  animation-direction:alternate-reverse}
+
+.item5{ background-color:rgb(255,255,255);  margin-right:5px;  -webkit-animation-name:item5;  animation-name:item5;  -webkit-animation-timing-function:ease-in-out;  animation-timing-function:ease-in-out;  -webkit-animation-duration:1s;  animation-duration:1s;  -webkit-animation-delay:1.15s;  animation-delay:1.15s;  -webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite;  -webkit-animation-direction:alternate-reverse;  animation-direction:alternate-reverse}
+
+.item6{ background-color:rgb(61,2,255);  margin-right:5px;  -webkit-animation-name:item6;  animation-name:item6;  -webkit-animation-timing-function:ease-in-out;  animation-timing-function:ease-in-out;  -webkit-animation-duration:1s;  animation-duration:1s;  -webkit-animation-delay:1.30s;  animation-delay:1.30s;  -webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite;  -webkit-animation-direction:alternate-reverse;  animation-direction:alternate-reverse}
